@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(180deg, #fff, #e2d0b3); }
+
+.gallery {
+  overflow: scroll;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: scroll; }
+
+.thumb {
+  height: 100%;
+  padding: 1em;
+  display: inline-block; }
+
+.display {
+  width: 100%;
+  height: 80vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.expanded {
+  background-color: #000;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+/*# sourceMappingURL=main.css.map */
