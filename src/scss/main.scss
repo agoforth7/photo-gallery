@@ -10,7 +10,6 @@ body {
 }
 
 .gallery {
-	// width: 80%;
 	overflow: scroll;
 	height: 150px;
 	margin: 0 auto;
@@ -23,6 +22,10 @@ body {
 	height: 100%;
 	padding: 1em;
 	display: inline-block;
+}
+
+.thumb:hover {
+	opacity: 0.5;
 }
 
 .display {
